@@ -1,6 +1,6 @@
-# This is the demo to show GitOps in action using ArgoCd on Civo Kubernetes
+# This is the demo to show GitOps in action using ArgoCD on Civo Kubernetes
 
-In order to learn more about ArgoCD quickly wach my CNCFMinutes video [here]().
+In order to learn more about ArgoCD quickly wach my CNCFMinutes video [here](https://youtu.be/2B3qcyCcBXs).
 
 
 Steps to do it on your own 
