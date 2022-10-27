@@ -2,6 +2,7 @@ kind: CivoKubernetes
 apiVersion: cluster.civo.crossplane.io/v1alpha1
 metadata: 
   name: test-crossplane
+  namespace: default
 spec:
   name: test-crossplane
   pools:
