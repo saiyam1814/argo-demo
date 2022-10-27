@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: helloservice
+  namespace: demo
 spec:
   selector:
     matchLabels:
@@ -14,7 +15,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: saiyam911/argocd-demo:sha-0e8251a
+        image: saiyam911/argocd-demo:sha-c292430
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
@@ -26,6 +27,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: helloservice
+  namespace: demo
 spec:
   selector:
     app: helloservice
